@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{54EEE9DA-50ED-45CA-B0D6-7F83A1E841A7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../private/var/folders/4s/qdgd64193793532684c9vs2m0000gn/T/.NETStandard,Version=v2.0.AssemblyAttributes.cs">
+    <Files>
+      <File FileName="HMIStudio.MacOS/AppDelegate.cs" Line="28" Column="10" />
+      <File FileName="HMIStudio.MacOS/Main.cs" Line="15" Column="1" />
+      <File FileName="../../../../var/folders/4s/qdgd64193793532684c9vs2m0000gn/T/.NETStandard,Version=v2.0.AssemblyAttributes.cs" Line="5" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HMIStudio.MacOS" expanded="True">
+            <Node name="HMIStudio.MacOS" expanded="True">
+              <Node name="Main.storyboard" selected="True" />
+            </Node>
+            <Node name="HMIStudio.Shared" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+                <Node name="SdkDependencies" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="HMIStudio.UI" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.HMIStudio.MacOS FirstBuild="True" PreferredExecutionTarget="Test1" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,155 @@
+{
+    "todo": [
+        "[Fix] Sketch paser is freeze when generating HMI data for all page"
+    ],
+    "releases": {
+        "2.9.9": [
+            "[Fixed] NhaPB - Fix caption table gen incorrect",
+            "[Fixed] HungNQ - Fix import image copy dirrect into png folder",
+            "[Update] HungNQ - Update id value for ImageInfo and Specification in BMPINFO.bmpinf -> use screenID value instead of screen name",
+            "[New] #168623 - Add data type for IF of progressValueId attribute of PrgressBar"
+        ],
+        "2.9.8": [
+            "[Fixed] #167783 - [HMI Tool 2.9.1] Sketch Parser can not cut images is setting by image editor -> Update log for error case",
+            "[Fixed] SonND13 - fix change color text in list button"
+        ],
+        "2.9.7": [
+            "[New] #168248 - Support change opacity and color of text in button follow states",
+            "[Fixed] #168812 - Picture not view XAML Viewer when used Sketch Parser 2.9.6",
+            "[Fixed] #168761 - [SketchParser] SketchParser generates CaptionID is wrong",
+            "[Fixed] #168813 - Blank_Background is wrong with CheckButton",
+            "[Fixed] #168865 - [HMIStudio2.9.6][Bug] Image State of button don't match Layout Button",
+            "[New] #168989 - [SketchParser ][SWDD]Request more table type",
+            "[Fixed] #169051 - [SketchPaser][SWDD] No generate data xaml with tables using images from bitmap libraries (Bitmaps-Master-c99c67a.sketch)"
+        ],
+        "2.9.6": [
+            "[New] #163982 - [SWDD][HMIVerticalGage] Request Tool SketchParser generate layout attributes for HMIVerticalGage"
+        ],
+        "2.9.5": [
+            "[Fixed] #168653 - [SketchParser] [Bug] Automatically generate my_group folders in other artboard",
+            "[HotFix] #168431 - Don't gen xaml with structure have LayoutID (HMIFixedlist) use Layout Editor",
+            "[HotFix] #168601 - [SketchParser] SketchPaser generates layout of HMIFixedList is wrong",
+            "[HotFix] #167209 - [SketchParser] In XAML, the coordinates of list item is the coordinates are relative to the HMI list",
+            "[Re-Fixed] #168392 - [SketchParser] Xaml structure of HMIFixListContent is wrong when was fetched to label",
+            "[Fixed] HungNQ - Can not generate List model info",
+            "[Fixed] #168655 - [SketchParser] TabButtonGroup not gen in Xaml and lost Label, Picture",
+            "[New] #168575 - [SketchParser] Req do not generate HMINewType and HMIUnkownType to XAML"
+        ],
+        "2.9.4": [
+            "[Fixed] #168435 - Wrong display label containing static and dynamic text on XAML",
+            "[Fixed] #168247 - [SketchParse] [Bug] Button State is wrong when fetch button ON/OFF",
+            "[Fixed] #167787 - [SketchPaser] Elevation image in button is wrong",
+            "[Fixed] #168392 - [SketchParser] Xaml structure of HMIFixListContent is wrong when was fetched to label",
+            "[Fixed] #168477 - [Sketch Parser ver 2.9.3][SWDD]The order of HMIFixedList is wrong",
+            "[Improved] Modify showID tool in Sketch Parser plugin: allow coping objectID from alert"
+        ],
+        "2.9.3": [
+            "[Fixed] #168063 - [SketchParser] Don't gen xaml with structure using image table",
+            "[Fixed] #165601 - [SketchParser] Caption info of multiline text is wrong",
+            "[Fixed] #168233 - [SketchParser] Can not generate xaml for HMILabel is fetched to non-textlayer",
+            "[Improved] #160244 - Update state button: reduce unnesscessary top or bottom layer corresponding each button type",
+            "[Improved] #160244 - [ButtonState]: Add new type for shapeBackground: NONE (default value) for pushed state info setting",
+            "[Fixed] #167775 - [HMISketchparse] Bug cut layout of Icon \"Icon/System/Close Button\" is wrong"
+        ],
+        "2.9.2": [
+            "[Fix] #167779 - [SketchParser v2.9.1] Not gen file xaml",
+            "[Fix] #167782 - [SketchParser v2.9.1] Not gen file xaml with HMIFixedListContents objects fetch 1 layer",
+            "[Fix] #167786 - [HMIStudio] CheckButton display duplicate on XamlViewer"      
+        ],
+        "2.9.1": [
+            "[New] #165849 - [ButtonStates] Update HMI Studio to support setting button states follow new design",
+            "[New] #160244 - [ButtonState] Update Sketch Parser follow new spec of button state",
+            "[New] #137881 - [SketchParser]Bug report for gen incorrect name screens after used HMIStudio",
+            "[Update] #160244 - [SketchParser]Support button states follow new specification"
+        ],
+        "2.9.0": [
+            "[New] Baseline new version format the same with HMIStudio",                        
+            "[Improved] #162666 - Improve gen XAML performance",
+            "[New] #162666 - Support intergrated screen",
+            "[New] #162666 - Genarate XAML follow screen structure json",
+            "[New] #166840 - Suport generate virtual part"
+        ],
+        "0.1.25": [
+            "[Fix] #166245 - [SPEC2.014][ImageEditor] Cut ImageID for HMIProgressCircle"
+        ],
+        "0.1.24": [
+            "[New] #138196 - Create ListModel Editor for GUI Editor",
+            "[Fix] #165549 - Not generate CaptionId for Label",
+            "[Fix] #166028 - SketchParser do not gen image table for HMIPicture"
+        ],
+        "0.1.23": [
+            "[Fixed] #150629 - Do not display icon, label in HMIPushButton on XamlViewer"
+        ],
+        "0.1.22": [
+            "[Fixed] #150620, #161108 - Table image is displayed wrong layout on XamlViewer",
+            "[New] #148939 - Support generate image table for components whose direction is changed",
+            "[New] #151497 - Support state for image table in the selected button"
+        ],
+        "0.1.21": [
+            "[New] #148539 Add new feature 'Font Editor'-Allow create fontId in screen ",
+            "[Fixed] #163426 - [ImageEditor] The IE tool crashed when Save Image Editor has defined IF"
+        ],
+        "0.1.20": [
+            "[New] #145038 - Request SketchParser get auto value and generate xaml"
+        ],
+        "0.1.19": [
+            "[Fixed] #159722 - [UT Bug] Sketch parser do not gen image and image table"
+        ],
+        "0.1.18": [
+            "[Fix] #158281 - States of button is not changed",
+            "[Fix] #158802 Support generating HMI data for the only subgroup of component",
+            "[New] #155384 Support exporting HMI data follow common option setting"
+        ],
+        "0.1.17": [
+            "[Improve] #157178 - Image Editor_ Allow fetch many layer at the same time"
+        ],
+        "0.1.16": [
+            "Fix #150630 - Component Vehicle/Adjustment/Tilt can't display the buttons states on XAMLViewer"
+        ],
+        "0.1.15": [
+            "[Fixed] #150622 - Base image of Progress Bar not display on XAML_Viewer"
+        ],
+        "0.1.14": [
+            "[Fix] #143432 - [FPT内部][SketchParser] Sketch Parser can not cut image",
+            "[Fix] #150626, #150629, #148216 - Can't generate components to XAML"
+        ],
+        "0.1.13": [
+			"[Fix] #148216, #150632: Can not generate states for button (UT_05, UT_48)",
+			"[Fix] #150619: The coordinates of state images of button are wrong (UT_29)"
+        ],
+		"0.1.12": [
+			"[Fix] #149373: Can not generate xaml for some arrtboards",
+			"[Fix] #146809 - The coordinates of state images of button are wrong",
+			"[Fix] When there are two or more HMI part have fetch to one layer, BMP information is wrong",
+			"[New] #146723: HMIProgressBar: If PrgBarLayoutId is blank, SP auto generate PrgBarLayoutId with the same value as LayoutId"
+        ],
+		"0.1.11": [
+			"[New] Call function to generate info of layout to layout.layinf in main.ts file"
+        ],
+		"0.1.10": [
+			"[Fixed] #146809 - The coordinates of state images of button are wrong"
+        ],
+	    "0.1.9": [
+            "[New] #143900 - Support generate HMI data for button states",
+			"[Fixed] #144328 - Fetch layer name '*' is not running kingdom DevTools"
+        ],
+        "0.1.8": [
+            "[New] #146589 - Support generate FontId without excess font information"
+        ],
+        "0.1.7": [
+            "[New] Define GUI Image Editor and Generating info of Image to image.imginf file"
+        ],
+        "0.1.6": [
+            "[Fixed] #140909, #142253 - SketchParser cannot generate image (image was defined in setting.json)"
+        ],
+        "0.1.5": [
+            "[Fixed] #139289 - SketchParser misread the displaying component order of sketchdata"
+        ]
+    },
+    "headers": [
+        "[New] - For new features",
+        "[Improved] - For improvements",
+        "[Fixed] - For bug fixes",
+        "[Removed] - For removals"
+    ]
+}

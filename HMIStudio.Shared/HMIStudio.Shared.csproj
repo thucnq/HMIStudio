@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>MyStreamTimer.Shared</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Refractored.MvvmHelpers" Version="1.3.0" />
+    <PackageReference Include="Xam.Plugins.Settings" Version="4.1.0-beta" />
+    <PackageReference Include="System.ValueTuple" Version="4.5.0" />
+    <PackageReference Include="MQTTnet" Version="3.0.8" />
+    <PackageReference Include="Xamarin.Forms" Version="4.2.0.778463" />
+    <PackageReference Include="System.Runtime.WindowsRuntime.UI.Xaml" Version="4.3.0" />
+    <PackageReference Include="Rg.Plugins.Popup" Version="1.1.5.188" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Helpers\TreeCollection\" />
+    <Folder Include="Helpers\TreeControl\" />
+    <Folder Include="Interfaces\TreeView\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Interfaces\TreeView\TreeCardView.cs" />
+    <Compile Remove="Interfaces\Modal\MyView.xaml.cs" />
+    <Compile Remove="Interfaces\Modal\ModalVIew.cs" />
+    <Compile Remove="Interfaces\Modal\Modal1.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Xamarin.Mac">
+      <HintPath>..\..\..\..\Library\Frameworks\Xamarin.Mac.framework\Versions\6.2.0.42\lib\reference\mobile\Xamarin.Mac.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="Interfaces\Modal\MyView.xaml" />
+    <EmbeddedResource Remove="Interfaces\Modal\Modal1.xaml" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HMIStudio.Shared.Interfaces.TreeView.TreeCardView">
+             <!--xmlns:local="clr-namespace:HMIStudio.Shared.Interfaces">
+    <ContentView.Resources>  
+   <local:IsActiveToColorConverter x:Key="IsActiveToColorConverter"></local:IsActiveToColorConverter>  
+</ContentView.Resources>-->
+    <ContentView.Content>
+        <Grid VerticalOptions="FillAndExpand"
+              HorizontalOptions="FillAndExpand"
+              BackgroundColor="#FFFFFF">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="{Binding IndentWidth}" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="50" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30" />
+            </Grid.RowDefinitions>
+
+
+            <!-- left side -->
+            <Grid Grid.Column="1" HorizontalOptions="FillAndExpand">
+                <!--<ContentView WidthRequest="30" />-->
+
+                <!-- tree node indentation spacer -->
+                <!--<BoxView x:Name="Spacer"
+                         WidthRequest="{Binding IndentWidth}" />-->
+
+                <!---this is a very bad way to load images, very slow, need to cache them somehow -->
+                <!--				<Image Source="{local:ImageResource CubesBrightColors.png}" Aspect="AspectFit" WidthRequest="24" VerticalOptions="Center"/>-->
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0"
+                    IsVisible="{Binding IsFather}"
+                    HeightRequest="15"
+                    BorderWidth="1"
+                    BorderColor="Gray"
+                    WidthRequest="15"
+                    Text="{Binding CollapseSymbol}"
+                    VerticalOptions="Center"
+                    BackgroundColor="#00000000"
+                    Command="{Binding ToggleIsExpandedCommand}" />
+                <Label Grid.Column="1" x:Name="TitleLabel"
+                       Text="{Binding Name}"
+                       VerticalOptions="Center" />
+                <Button Grid.Column="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Command="{Binding Appear}" BackgroundColor="Transparent"
+                     CommandParameter="{Binding Name}" />
+                <StackLayout Grid.Column="2" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Button IsVisible="{Binding HaveModal1}"
+                            HeightRequest="15"
+                            BorderWidth="1"
+                            BorderColor="Gray"
+                            WidthRequest="15"
+                            VerticalOptions="Center"
+                            BackgroundColor="Red"
+                            Command="{Binding ShowModal1}"
+                            CommandParameter="{Binding Name}"/>
+                    <Button IsVisible="{Binding HaveModal2}"
+                            HeightRequest="15"
+                            BorderWidth="1"
+                            BorderColor="Gray"
+                            WidthRequest="15"
+                            VerticalOptions="Center"
+                            BackgroundColor="#00000000"
+                            Command="{Binding ShowModal2}"
+                            CommandParameter="{Binding Name}"/>
+                    <Button IsVisible="{Binding HaveModal3}"
+                            HeightRequest="15"
+                            BorderWidth="1"
+                            BorderColor="Gray"
+                            WidthRequest="15"
+                            VerticalOptions="Center"
+                            BackgroundColor="#00000000"
+                            Command="{Binding ShowModal3}"
+                            CommandParameter="{Binding Name}"/>
+                </StackLayout>
+            </Grid>
+
+            <!-- right side -->
+            <!-- if you're testing on a smaller (smartphone) screen, you can comment out the following right side of content and delete one of the ColumnDefinitions for the Grid-->
+            <StackLayout Grid.Column="2"
+                         Orientation="Horizontal"
+                         HorizontalOptions="End"
+                         Padding="20,0">
+                <Frame HeightRequest="10"
+                       WidthRequest="10"
+                       CornerRadius="5"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       Margin="0"
+                       Padding="0"
+                       BackgroundColor="{Binding StatusColor}">
+                       <!--BackgroundColor="{Binding IsActive, Converter={StaticResource IsActiveToColorConverter}}">-->
+
+                </Frame>
+            </StackLayout>
+
+            
+        </Grid>
+    </ContentView.Content>
+</ContentView>

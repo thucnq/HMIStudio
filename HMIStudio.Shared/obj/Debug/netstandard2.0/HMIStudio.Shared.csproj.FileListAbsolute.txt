@@ -1,0 +1,13 @@
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Shared/bin/Debug/netstandard2.0/MyStreamTimer.Shared.deps.json
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Shared/bin/Debug/netstandard2.0/MyStreamTimer.Shared.dll
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Shared/bin/Debug/netstandard2.0/MyStreamTimer.Shared.pdb
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Shared/bin/Debug/netstandard2.0/Xamarin.Mac.dll
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Shared/bin/Debug/netstandard2.0/Xamarin.Mac.pdb
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Shared/obj/Debug/netstandard2.0/Interfaces/TreeView/TreeCardView.xaml.g.cs
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Shared/obj/Debug/netstandard2.0/HMIStudio.Shared.AssemblyInfoInputs.cache
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Shared/obj/Debug/netstandard2.0/HMIStudio.Shared.AssemblyInfo.cs
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Shared/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Shared/obj/Debug/netstandard2.0/HMIStudio.Shared.csproj.CopyComplete
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Shared/obj/Debug/netstandard2.0/MyStreamTimer.Shared.dll
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Shared/obj/Debug/netstandard2.0/MyStreamTimer.Shared.pdb
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Shared/obj/Debug/netstandard2.0/HMIStudio.Shared.csprojAssemblyReference.cache

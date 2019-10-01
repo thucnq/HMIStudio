@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="{A9D15055-C57A-4CC1-891A-A0F326790A63}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.ItemProperties.HMIStudio.Mac PreferredExecutionTarget="Test1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HMIStudio.Shared/Helpers/TreeCollection/TreeNode.cs">
+    <Files>
+      <File FileName="HMIStudio.Shared/ViewModel/StructureDesignViewModel.cs" Line="240" Column="18" />
+      <File FileName="HMIStudio.UI/MainPage.xaml" Line="61" Column="56" />
+      <File FileName="HMIStudio.Shared/Interfaces/TreeView/TreeCardView.xaml" />
+      <File FileName="HMIStudio.Shared/Interfaces/TreeView/TreeNode.cs" Line="3" Column="45" />
+      <File FileName="HMIStudio.Shared/Interfaces/TreeView/TreeCardView.xaml.cs" Line="6" Column="52" />
+      <File FileName="HMIStudio.UI/App.xaml.cs" />
+      <File FileName="HMIStudio.Shared/Helpers/ObservableObject.cs" Line="6" Column="18" />
+      <File FileName="HMIStudio.Shared/Helpers/TreeCollection/TreeNode.cs" Line="11" Column="32" />
+      <File FileName="HMIStudio.Shared/Interfaces/TreeView/TreeViewModel.cs" Line="26" Column="34" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="HMIStudio" expanded="True">
+            <Node name="HMIStudio.Mac" expanded="True" />
+            <Node name="HMIStudio.Shared" expanded="True">
+              <Node name="Helpers" expanded="True">
+                <Node name="TreeCollection" expanded="True">
+                  <Node name="TreeNode.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Interfaces" expanded="True">
+                <Node name="TreeView" expanded="True">
+                  <Node name="TreeCardView.xaml" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="ViewModel" expanded="True" />
+            </Node>
+            <Node name="HMIStudio.UI" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

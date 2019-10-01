@@ -1,0 +1,22 @@
+{
+  "name": "HMI Studio Native",
+  "author": "FPT Software Co.,Ltd",
+	"homepage": "https://www.fpt-software.jp/company-information/company-fact-sheet/",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "assets/icon.png",
+  "description": "Generates HMI Data for kingdom toolchain.",
+  "commands": [
+    {
+      "name": "Start",
+      "identifier": "start_sketch_process",
+      "script": "../out/main.js",
+      "handler": "startSketchProcess",
+      "shortcut": "cmd ["
+    }
+  ],
+  "menu": {
+    "title": "HMI Studio Native",
+    "items": "start_sketch_process"
+  }
+}

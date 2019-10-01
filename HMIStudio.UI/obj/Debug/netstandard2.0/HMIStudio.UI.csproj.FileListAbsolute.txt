@@ -1,0 +1,14 @@
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.UI/bin/Debug/netstandard2.0/MyStreamTimer.UI.deps.json
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.UI/bin/Debug/netstandard2.0/MyStreamTimer.UI.dll
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.UI/bin/Debug/netstandard2.0/MyStreamTimer.UI.pdb
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.UI/bin/Debug/netstandard2.0/MyStreamTimer.Shared.dll
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.UI/bin/Debug/netstandard2.0/MyStreamTimer.Shared.pdb
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.UI/obj/Debug/netstandard2.0/HMIStudio.UI.csprojAssemblyReference.cache
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.UI/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.UI/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.UI/obj/Debug/netstandard2.0/HMIStudio.UI.AssemblyInfoInputs.cache
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.UI/obj/Debug/netstandard2.0/HMIStudio.UI.AssemblyInfo.cs
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.UI/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.UI/obj/Debug/netstandard2.0/HMIStudio.UI.csproj.CopyComplete
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.UI/obj/Debug/netstandard2.0/MyStreamTimer.UI.dll
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.UI/obj/Debug/netstandard2.0/MyStreamTimer.UI.pdb

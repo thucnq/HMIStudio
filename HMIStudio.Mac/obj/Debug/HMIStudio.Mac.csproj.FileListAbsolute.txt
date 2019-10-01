@@ -1,0 +1,29 @@
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/bin/Debug/My Stream Timer.exe
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/bin/Debug/My Stream Timer.pdb
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/bin/Debug/MQTTnet.dll
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/bin/Debug/MvvmHelpers.dll
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/bin/Debug/MyStreamTimer.Shared.dll
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/bin/Debug/MyStreamTimer.UI.dll
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/bin/Debug/Plugin.Settings.dll
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/bin/Debug/Rg.Plugins.Popup.dll
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/bin/Debug/Xamarin.Forms.Core.dll
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/bin/Debug/Xamarin.Forms.Platform.macOS.dll
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/bin/Debug/MyStreamTimer.Shared.pdb
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/bin/Debug/MyStreamTimer.UI.pdb
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/bin/Debug/MvvmHelpers.pdb
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/bin/Debug/MvvmHelpers.xml
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/bin/Debug/Plugin.Settings.pdb
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/bin/Debug/Plugin.Settings.xml
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/bin/Debug/Rg.Plugins.Popup.pdb
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/obj/Debug/actool/_PartialAppManifest.items
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/obj/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/obj/Debug/ibtool-manifests/Main.storyboardc
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/obj/Debug/ibtool/Main.storyboardc/MainMenu.nib
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/obj/Debug/ibtool/Main.storyboardc/Info.plist
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/obj/Debug/HMIStudio.Mac.csprojAssemblyReference.cache
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/obj/Debug/XamlC.stamp
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/obj/Debug/HMIStudio.Mac.csproj.CopyComplete
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/obj/Debug/My Stream Timer.exe
+/Users/thuydh.fga/HMIStudioNative 2/HMIStudio.Mac/obj/Debug/My Stream Timer.pdb

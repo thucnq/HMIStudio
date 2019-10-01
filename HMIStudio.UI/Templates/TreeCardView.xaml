@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView 
+	xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="HMIStudio.Shared.Interfaces.TreeCardView">
+	<ContentView.Content>
+		<Grid BackgroundColor="#CCCCCC" VerticalOptions="Start" HorizontalOptions="FillAndExpand">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="50"/>
+			</Grid.RowDefinitions>
+
+
+			<!-- left side -->
+			<StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+				<ContentView WidthRequest="30"/>
+
+				<!-- tree node indentation spacer -->
+        <BoxView x:Name="Spacer" WidthRequest="{Binding IndentWidth}"/>
+
+				<!---this is a very bad way to load images, very slow, need to cache them somehow -->
+<!--				<Image Source="{local:ImageResource CubesBrightColors.png}" Aspect="AspectFit" WidthRequest="24" VerticalOptions="Center"/>-->
+
+				<Label x:Name="TitleLabel" Text="{Binding Title}" Font="Bold,20" TextColor="Black" VerticalOptions="Center"/>  
+			</StackLayout>
+
+			<!-- right side -->
+			<!-- if you're testing on a smaller (smartphone) screen, you can comment out the following right side of content and delete one of the ColumnDefinitions for the Grid-->
+			<StackLayout Grid.Column="1" Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="16,0,0,0">
+				<Label Text="{Binding Score,StringFormat='{0:F3}'}" Font="16" TextColor="Black" VerticalOptions="Center"/>
+				<!-- TODO: bind WidthRequest and use ValueConverter to convert from 0-1 score to the width of the chart on screen -->
+				<ContentView BackgroundColor="Green" HeightRequest="20" WidthRequest="150" HorizontalOptions="Start" VerticalOptions="Center"/>
+			</StackLayout>
+
+			<Button Grid.ColumnSpan="2" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#00000000" Command="{Binding ToggleIsExpandedCommand}"/>
+		</Grid>
+	</ContentView.Content>
+</ContentView>

@@ -1,0 +1,40 @@
+{
+  "name": "hmistudio-navite",
+  "version": "1.0.0",
+  "license": "unlicensed",
+  "engines": {
+    "sketch": ">=3.0"
+  },
+  "skpm": {
+    "name": "HMI Studio Native",
+    "manifest": "src/manifest.json",
+    "main": "HMIStudioNative.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ]
+  },
+  "scripts": {
+    "run": "skpm-build --run",
+    "tscompile": "tsc -p src/tsconfig.json || exit 0",
+    "build": "npm run tscompile && skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.5.2",
+    "@skpm/child_process": "github:skpm/child_process",
+    "@skpm/fs": "^0.1.2",
+    "@types/mustache": "^0.8.31",
+    "@types/node": "^10.0.0",
+    "moment": "^2.22.1",
+    "mustache": "^3.0.0",
+    "pngjs3": "^3.4.3",
+    "sketch.d.ts": "github:pravdomil/sketch.d.ts",
+    "uglifyjs-webpack-plugin": "^1.2.5"
+  },
+  "author": "FPT HMI development team",
+  "dependencies": {
+    "typescript": "^3.6.3"
+  }
+}

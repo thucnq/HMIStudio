@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>MyStreamTimer.UI</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.2.0.778463" />
+    <PackageReference Include="Refractored.MvvmHelpers" Version="1.3.0" />
+    <PackageReference Include="Xam.Plugins.Settings" Version="4.1.0-beta" />
+    <PackageReference Include="MQTTnet" Version="3.0.8" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HMIStudio.Shared\HMIStudio.Shared.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Templates\TreeCardView.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="Templates\TreeCardView.xaml" />
+  </ItemGroup>
+</Project>

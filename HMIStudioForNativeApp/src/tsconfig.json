@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "sourceRoot": "./",
+        "outDir": "../out",
+        "module": "commonjs",
+        "target": "es2016",
+        "sourceMap": true,
+        "inlineSourceMap": false,
+        "listFiles" : true,
+        "noFallthroughCasesInSwitch" : true,
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny" : false,
+        "noImplicitReturns" : true,
+        "noImplicitThis" : false,
+        "noUnusedLocals" : false,
+        "noUnusedParameters" : false,
+        "pretty" : true,
+        "removeComments" : true,
+        "traceResolution" : false,
+        "lib": [
+            "es2016"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
